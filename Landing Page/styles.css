@@ -1,0 +1,82 @@
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #be4f4f;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #5db899;
+    color: #7fe990;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Specific Section Styles */
+  #home {
+    background-color: #c07373;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    width: 30%;
+    padding: 20px;
+    background-color: #6eeb94;
+    border: 1px solid #ee2d2d;
+    border-radius: 5px;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .plan {
+    width: 30%;
+    padding: 20px;
+    background-color: #8bdde7;
+    border: 1px solid #e457e9;
+    border-radius: 5px;
+  }
+  
+  /* ... Additional specific styles for other sections ... */
+  
